@@ -1,0 +1,63 @@
+Java :
+====
+
+Basic and OOP : what is java, oop, platform indepedent, class, object, this , singleton class, static data members and methods , arrays : single dim, multi dim and ragged/jagged array , varargs (variable arguments/ variable arity parameters), command line arguments , final (class, method and data members/variables) , stream (channel of data transfer - System.in, System.out, System.err), control statements (switch-case allowed type -> byte,short,int,long {with it's wrapper}, enums & string) , constructors, non-static (instance) initializer block , static initializer block, Nested Class: Local Inner class, Member Inner Class, Anonymous Inner Class (class with no name that we can define & instantiate same time and It makes our code concise/shorter), Static Nested Class, Autoboxing (boxing & unboxing), Type Conversion vs Type Casting -- done
+
+Polymorphism: Compile time (static) and Run time (dynamic) -> Method Overloading & Method Overriding -- done
+
+Inheritance : Inheritance & it's Type - Single level, Multi level and Hierarchical inheritance, Upcasting & Downcasting, Super Keyword, Binding ( eager & lazy ), Type Compatibility, Coupling (tight & loose) , Abstract classes and methods , Garbage Collection (GC) -- done
+
+Interface:  Interface, Inheritance of Interface, Marker/Tagged (ex. Serializable, Remote) & Functional Interface (ex. Runnable, ActionListner) , Nested Interface -- done
+
+Exception Handling: what is exception, type of exception (checked and unchecked), try, catch, finally, exception propogation, custom exceptions, final vs finally vs finalize, throw vs throws, exception handling with method overriding -- done
+
+Strings : String class and methods, String Buffer, String Builder, String Tokenizer -- done
+
+Packages: what is package , types of package, ways to access packages, sub packages, static import (allows to access static members of a class without class qualification), Package class ( used to get info about specification & implementation of a specified package), import vs static import -- done
+
+IO & Files: Streams (in,out,err & custom), File Ops - Read-Write-Copy, Object IO (serialization & deserialization), Buffered Streams, Stream Redirection,  Random Access File, File Class & it's methods -- done
+
+Multithreading:  What is multithreading?, Single threaded vs Multi Threaded app, Process vs Thread, Life cycle of thread, Thread Scheduler (uses combined scheduling alg: FCFS, Time Slicing & Priority ) , 
+Ways to implement multithreading, type of thread (Daemon & Non Daemon), thread - ( sleep, priority, join, yield ) , Thread Synchronization 
+
+Collection Framework: Pending
+
+Java 8 Features: - Pending
+Functional Interface, Default and Static methods in interface, Method References, Lambda Expression, Nashorrn Javascript Engine , Parallel Sort, 
+Streams, Classes & Interfaces ( Collectors, Optional, Predicate, StringJoiner )
+
+Adv Java:
+
+Socket Programming / Networking
+Servlet & JSP
+RMI ( Remote Method Invocation )
+
+
+
+Notes:
+-------------
+Type Compatibility : It refers to similarity of tow types to each other. We say that two types are compatible in Java if it's possible to transfer data between variables of the types. Data transfer is possible if the compiler accepts it. It is done through assignment or parameter passing.
+
+Coupling : It refers to degree up to which one class knows or has knowlegde about other. Types :
+ 1) Tight Coupling :  In tight coupling, a component knows more about or having more depedendency on other component. If we have modified something in one it may affect on other component.  More interdependency, More coordination & More Information Flow
+ 2) Loose Coupling : In loose coupling, a component knows less about or independent to other component. If we have modified something in one it will not  affect on other component.  Less interdependency, Less coordination & Less Information Flow
+
+Abstract Use: The abstract class in Java enables the best way to execute the process of data abstraction by providing the developers with the option of hiding the code implementation. 
+
+Exception Propogation :  Exception is thrown from top of the stack to bottom of the stack
+
+Boxing - Converting primitive data type to object of corresponding wrapper class , Unboxing - Converting object of  wrapper class to primitive data type
+
+
+
+Process : 
+1. It's any program that is in execution
+2. Process allocates new memory area for it i.e. each process has address stored in memory.
+3.  It is heavy weighted 
+4.  Context switching takes more time and cost of communication is high.
+
+Thread:
+1. It's a lightweight subprocess i.e smallest unit of processing.
+2. Thread uses shared address space 
+3. It is lightweighted
+4. Context switching takes less time and cost of communication is low.
